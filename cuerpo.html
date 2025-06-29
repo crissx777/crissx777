@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CECyTEM - Página de ejemplo</title>
+  <link rel="stylesheet" href="body.css">
+</head>
+<body>
+
+  <main>
+    <section class="hero">
+      
+
+      <div class="slider">
+  <img id="slide" src="cecyto1.jpg" alt="Imagen 1">
+  <img id="slide" src="cecyte1.jpg" alt="Imagen 2">
+  <img id="slide" src="cecyto1.jpg" alt="Imagen 3">
+</div>
+    </section>
+
+    <section>
+      <h2>Bienvenido al CECyTEM</h2>
+      <p>Formamos estudiantes con excelencia académica, compromiso social y visión tecnológica.</p>
+    </section>
+
+    <section class="galeria">
+      <img src="labo.jpg" alt="Laboratorio">
+      <img src="juego.jpg" alt="Evento escolar">
+      <img src="plante.jpg" alt="Instalaciones del plantel">
+    </section>
+  </main>
+
+<footer style="background-color:#4b0c0c; padding: 20px; text-align: center;">
+  <p>&copy; 2025 Cecytem. Todos los derechos reservados.</p>
+  <p>
+    <a href="/privacidad.html">Política de privacidad</a> |
+    <a href="/contacto.html">Contacto</a>
+    <h3> Cristhian Gonzalez Lopez 404</h3>
+  </p>
+</footer>
+
+
+</body>
+</html>
+
+<script> 
+
+    const images = ["cecyto1.jpg", "cecyte1.jpg", "cecy2.jpeg"];
+  let index = 0;
+  const slide = document.getElementById("slide");
+
+  setInterval(() => {
+    index = (index + 1) % images.length;
+    slide.src = images[index];
+  }, 3000); // 3000 milisegundos = 3 segundos
+
+      </script>

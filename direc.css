@@ -1,0 +1,9 @@
+.directorio {
+  list-style-type: none;
+  font-family: sans-serif;
+}
+
+.directorio li {
+  margin-left: 10px;
+  line-height: 1.5;
+}

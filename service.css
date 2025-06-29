@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.services {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.services h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #490505;
+}
+
+.service-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #6a0c0c;
+}
+
+.service p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+ 

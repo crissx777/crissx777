@@ -1,0 +1,62 @@
+.oferta-educativa {
+  background-color: #eef5fc;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.oferta-educativa h2 {
+  font-size: 2.8rem;
+  margin-bottom: 50px;
+  color: #630101;
+}
+
+.contenedor-oferta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+}
+
+.oferta-item {
+  background-color: #ffffff;
+  padding: 30px 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.oferta-item:hover {
+  transform: translateY(-8px);
+  background-color: #dbeeff;
+}
+
+.oferta-item i {
+  font-size: 40px;
+  color: #0077cc;
+  margin-bottom: 15px;
+}
+
+.oferta-item h3 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.oferta-item i {
+  font-size: 40px;
+  color: #741212;
+  margin-bottom: 15px;
+  transition: transform 0.4s ease;
+}
+
+.oferta-item:hover i {
+  transform: rotate(10deg) scale(1.2);
+}
+
+@keyframes pulso {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+}
+
+.oferta-item:hover i {
+  animation: pulso 0.6s ease-in-out;
+}

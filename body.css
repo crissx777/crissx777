@@ -131,3 +131,31 @@ footer p {
   margin: 10px 0;
   font-size: 14px;
 }
+
+
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.redes-sociales a {
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.redes-sociales a:hover {
+  transform: scale(1.2);
+}
+
+.facebook { background-color: #3b5998; }
+.instagram { background-color: #e4405f; }
+.twitter { background-color: #1da1f2; }
+.youtube { background-color: #ff0000; }
+.linkedin { background-color: #0077b5; }
